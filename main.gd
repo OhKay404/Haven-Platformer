@@ -1,6 +1,7 @@
-extends RichTextLabel
+extends Node
 
-#var coins_collected:int = $Coin.num_coins
+var num_coins:int = 0
+@onready var coin_text:RichTextLabel = $CoinsCollected
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -9,5 +10,4 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	pass
-	#text = "Coins: " + str(coins_collected) + "/3"
+	coin_text.text = "Coins: " + str(num_coins) + "/3"
