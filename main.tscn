@@ -1,14 +1,13 @@
-[gd_scene load_steps=14 format=4 uid="uid://i7vi2nicg458"]
+[gd_scene load_steps=13 format=4 uid="uid://i7vi2nicg458"]
 
-[ext_resource type="Script" uid="uid://c6ayegtq2088j" path="res://player.gd" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://c6ayegtq2088j" path="res://Scripts/player.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dpttiqlticndk" path="res://addons/Green.png" id="1_7mycd"]
-[ext_resource type="Script" uid="uid://bp6427efyykhv" path="res://main.gd" id="1_kek77"]
-[ext_resource type="Texture2D" uid="uid://b5p74pg66yvvj" path="res://FlowerSprite.png" id="2_h2yge"]
-[ext_resource type="Texture2D" uid="uid://c4gv3vnurljof" path="res://Terrain (16x16).png" id="4_1bvp3"]
-[ext_resource type="FontFile" uid="uid://dcpehixjsbtpv" path="res://Square-Black.ttf" id="5_7mycd"]
-[ext_resource type="Script" uid="uid://u82cunmlpd07" path="res://coins_collected.gd" id="6_272bh"]
-[ext_resource type="Script" uid="uid://oq3g7fgjn1dh" path="res://coin.gd" id="7_5vw27"]
-[ext_resource type="Texture2D" uid="uid://dinc6qa6d376t" path="res://coin.png" id="8_kek77"]
+[ext_resource type="Script" uid="uid://bp6427efyykhv" path="res://Scripts/main.gd" id="1_kek77"]
+[ext_resource type="Texture2D" uid="uid://b5p74pg66yvvj" path="res://Assets/FlowerSprite.png" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://c4gv3vnurljof" path="res://Assets/Terrain (16x16).png" id="4_1bvp3"]
+[ext_resource type="FontFile" uid="uid://dcpehixjsbtpv" path="res://Assets/Square-Black.ttf" id="5_7mycd"]
+[ext_resource type="Script" uid="uid://oq3g7fgjn1dh" path="res://Scripts/coin.gd" id="7_5vw27"]
+[ext_resource type="Texture2D" uid="uid://dinc6qa6d376t" path="res://Assets/coin.png" id="8_kek77"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
 size = Vector2(64, 95)
@@ -221,7 +220,6 @@ theme_override_colors/default_color = Color(0.223588, 0.324556, 0.0428406, 1)
 theme_override_fonts/normal_font = ExtResource("5_7mycd")
 theme_override_font_sizes/normal_font_size = 50
 fit_content = true
-script = ExtResource("6_272bh")
 
 [node name="Coin" type="Area2D" parent="."]
 position = Vector2(341, 376)

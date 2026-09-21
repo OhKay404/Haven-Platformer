@@ -13,7 +13,6 @@ config_version=5
 config/name="Haven-Platformer"
 run/main_scene="uid://i7vi2nicg458"
 config/features=PackedStringArray("4.4", "Mobile")
-config/icon="res://icon.svg"
 
 [editor_plugins]
 
