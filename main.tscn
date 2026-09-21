@@ -259,6 +259,18 @@ texture = ExtResource("8_kek77")
 position = Vector2(0, 1)
 shape = SubResource("CircleShape2D_4c57u")
 
+[node name="Winner" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 388.0
+offset_top = 300.0
+offset_right = 786.0
+offset_bottom = 400.0
+theme_override_colors/default_color = Color(0.223529, 0.32549, 0.0431373, 1)
+theme_override_fonts/normal_font = ExtResource("5_7mycd")
+theme_override_font_sizes/normal_font_size = 100
+text = "You Won!"
+fit_content = true
+
 [connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]
 [connection signal="body_entered" from="Coin2" to="Coin2" method="_on_body_entered"]
 [connection signal="body_entered" from="Coin3" to="Coin3" method="_on_body_entered"]
